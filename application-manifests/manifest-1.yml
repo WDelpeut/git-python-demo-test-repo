@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Application
+metadata:
+  name: manifest-1
+  namespace: test
+  labels:
+    suspendCronRange: '123'
